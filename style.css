@@ -1,0 +1,54 @@
+body,html{
+      
+    background: #392145;
+}
+.button{
+    padding: 15px;
+    margin: 0 3px;
+   
+    border-radius: 10px;
+    cursor: pointer;
+    width: 43px;
+    text-align: center;
+    font-size: 16px;
+    transition: color  0.2s ease-in;
+    font-weight: bolder;
+    transition: 0.2s;
+
+
+}
+
+.button:hover{
+    
+    border: 2px solid rgb(255, 255, 3);
+    color: rgb(0, 0, 0);
+    box-shadow: -1px -1px 10px yellow, 1px 1px 10px yellow ;
+    font-weight: bolder;
+}
+.row{
+    margin: 5px 0;
+}
+.row input{
+    outline: none;
+    border: 2px solid black;
+    border-radius: 9px;
+    margin: 2px;
+    padding: 5px 13px;
+    transition: all 0.2s;
+}
+.row input:focus {
+    border: 2px solid red;
+    box-shadow: -1px -1px 10px red, 1px 1px 10px red;
+}
+.container{
+    width: 233px;
+    background-color: black;
+    color: wheat;
+    border-radius: 10px;
+    border: 6px solid red;
+}
+h1{
+   
+    color: rgb(175 143 51);
+    text-decoration: underline;
+}
