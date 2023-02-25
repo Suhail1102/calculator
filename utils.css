@@ -1,0 +1,31 @@
+
+.Text-center{
+    text-align: center;
+}
+
+.bg-red{
+ background-color: red;
+}
+.margin{
+    margin: auto;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+} 
+.flex-col{
+     flex-direction: column;
+}
+.padding{
+    padding: 10px;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background: rgba(255, 255, 0, 0.815);
+    border: 1px solid black;   
+}
